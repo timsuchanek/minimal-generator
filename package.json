@@ -1,9 +1,12 @@
 {
   "name": "@timsuchanek/minimal-generator",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@prisma/generator-helper": "^2.0.0-beta.6"
+  },
+  "bin": {
+    "min-gen": "index.js"
   }
 }
